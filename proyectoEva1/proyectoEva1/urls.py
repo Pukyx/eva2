@@ -16,8 +16,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+import appPeliculas
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('render/', 'index.html/templates')
+    path('peli1/', 'peliculas.html/templates')
+    path('peli2/', 'peliculas.html/templates')
+    path('peli3/', 'peliculas.html/templates')
 ]
