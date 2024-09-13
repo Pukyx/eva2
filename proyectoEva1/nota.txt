@@ -1,0 +1,18 @@
+
+Considerando las dos interfaces anteriores, debe crear una pequeña aplicación con Django
+ que tenga un listado de imágenes de alguna temática que usted le interese. 
+
+Debe mostrar al menos 3 elementos en dicho listado.
+
+El listado considera solo imágenes.
+
+Al dar click a un elemento debe abrir la segunda interfaz, donde muestre el nombre del elemento como título,
+ la descripción, una imagen relacionada y la valoración. 
+ Al final de la interfaz debe tener un enlace para volver a la ruta principal.
+
+No puede usar más de 2 templates.
+
+Puede implementar la cantidad de Views que considere pertinente.
+
+Como se puede apreciar, ambos templates utilizan css. 
+Por ende debe lograr mostrar sus templates de la misma manera que en el ejemplo.
